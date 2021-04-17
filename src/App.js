@@ -1,11 +1,27 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './App.css';
+import CreateTodo from './Components/CreateTodo';
+import './Assets/styles.css';
 
 function App() {
   
   return (
-    <div>Hi</div>
+    <div className="outer-box">
+      <CreateTodo />
+      
+    </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
